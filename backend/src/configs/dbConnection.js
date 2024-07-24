@@ -11,5 +11,3 @@ module.exports = () => {
         .catch((err) => console.log('* Failed to connect to DB * ', err))
 
 }
-
-F

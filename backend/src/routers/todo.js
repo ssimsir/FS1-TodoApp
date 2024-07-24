@@ -4,7 +4,9 @@ const router = require('express').Router();
 const todo = require('../controllers/todo');
 
 
-router.route("/").get(todo.list).post(todo.create);
+router.route("/")
+    .get(todo.list)
+    .post(todo.create);
 
 router.route("/:id")
     .all(require('../middlewares/idValidation'))
