@@ -1,8 +1,8 @@
 # Todo App
 
-Bu proje, Node.js ve Express.js ile oluşturulmuş bir Todo uygulamasıdır. Uygulama, kullanıcıların yapılacak işler listesini oluşturmasını, görüntülemesini, güncellemesini ve silmesini sağlar. 
+Bu proje, Frontend tarafında React ve Bootstrap Backend tarafında  Node.js ve Express.js ile oluşturulmuş bir Fullstack Todo uygulamasıdır. Uygulama, kullanıcıların yapılacak işler listesini oluşturmasını, görüntülemesini, güncellemesini ve silmesini sağlar. 
 
-https://todo-app-fs1.vercel.app/
+Proje linki :  https://fs1-todo-app.vercel.app/
 
 ## Özellikler
 
