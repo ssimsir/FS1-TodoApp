@@ -22,7 +22,7 @@ require('./src/configs/dbConnection')()
 app.use(express.json())
 
 const cors = require("cors");
-app.use(cors({ origin: "http://localhost:3000", }));
+app.use(cors({ origin: "https://todoapp-ufnx.onrender.com/", }));
 
 
 
