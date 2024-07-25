@@ -8,7 +8,6 @@ const AddTutorial = ({ getTutorials }) => {
 	const handleSubmit = (e) => {
 		e.preventDefault();
 		const newTutor = { title: title, description: description };
-		console.log(newTutor);
 		postTutorial(newTutor);
 
 		setTitle("");
@@ -19,9 +18,8 @@ const AddTutorial = ({ getTutorials }) => {
 		const BASE_URL = `${process.env.REACT_APP_BASE_URL}`;
 		try {
 			const res = await axios.post(BASE_URL, newTutor);
-			console.log(res);
 		} catch (error) {
-			console.log(error);
+
 		}
 
 		//? Tum tutorial'lari iste ve state'i guncelle
