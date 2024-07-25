@@ -22,8 +22,8 @@ require('./src/configs/dbConnection')()
 app.use(express.json())
 
 const cors = require("cors");
-app.use(cors());
-//app.use(cors({ origin: 'https:\/\/todoapp-ufnx.onrender.com/', }));
+//app.use(cors());   //bütün corslara izin verir
+app.use(cors({ origin: 'https:/\/todo-app-fs1.vercel.app'}));
 //app.use(cors({ origin: "http://localhost:3000", }));
 
 //* Routes:
