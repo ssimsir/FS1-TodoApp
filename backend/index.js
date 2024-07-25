@@ -23,7 +23,7 @@ app.use(express.json())
 
 const cors = require("cors");
 //app.use(cors());   //bütün corslara izin verir
-app.use(cors({ origin: 'https://fs1-todo-app.vercel.app/'}));
+app.use(cors({ origin: 'https://fs1-todo-app.vercel.app/',}));
 
 //* Routes:
 
