@@ -18,8 +18,6 @@ const Home = () => {
 		}
 	};
 
-	console.log(tutorials);
-
 	//? Mount asamasinda api'ye istek atiyoruz
 	useEffect(() => {
 		getTutorials();

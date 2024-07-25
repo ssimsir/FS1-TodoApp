@@ -2,7 +2,6 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 
 const EditTutorial = ({ editItem, getTutorials }) => {
-	console.log(editItem);
 
 	const { id, description: oldDescription, title: oldTitle } = editItem;
 	//console.log("old", oldTitle);
@@ -24,9 +23,6 @@ const EditTutorial = ({ editItem, getTutorials }) => {
 		setDescription(oldDescription);
 		//? oldTitle veya oldDescriptiion her degistiginde local title ve description state'lerimizi guncelliyoruz.
 	}, [oldTitle, oldDescription]);
-
-	console.log(title); //ilk render da undefined
-	console.log(description);
 
 	const editTutor = async (tutor) => {
 		const BASE_URL = `${process.env.REACT_APP_BASE_URL}`;
